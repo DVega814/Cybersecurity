@@ -24,7 +24,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly avaiable, in addition to restricting restricting to the network.
 <br> What aspect of security do load balancers protect? <b> Load balancers defend against denial of service</b> <br>
-What is the advantage of a jump box? <b> The advantage of a jump box is that all admins first connect to before launching any administrative task or use as an origination point to connect to other servers or untrusted environments </b>
+<br>What is the advantage of a jump box? <b> The advantage of a jump box is that all admins first connect to before launching any administrative task or use as an origination point to connect to other servers or untrusted environments </b>
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the <b> Data </b> and system <b> Logs </b>. <br>
 <br> What does Filebeat watch for? <b> Filebeat is a lightweight shipper for forwarding and centralizing log data </b><br>
@@ -60,7 +60,7 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because <b> servcies running can be limited, system installation and update can be streamlined, and processes become more replicable</b> <br>
--What is the main advantage of automating configuration with Ansible? <b> The main advantage of automating configuration with Ansible is that it's very simple to set up and use and No special coding skills are necessary to use Ansible's playbooks. </b> <br>
+<br>- What is the main advantage of automating configuration with Ansible? <b> The main advantage of automating configuration with Ansible is that it's very simple to set up and use and No special coding skills are necessary to use Ansible's playbooks. </b> <br>
 
 The playbook implements the following tasks:
 - <b> Installs docker.io </b>
@@ -75,12 +75,12 @@ The following screenshot displays the result of running `docker ps` ('sudo docke
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- Web 1 - 10.0.0.5
-- Web 2 - 10.0.0.6
+- <b>Web 1 - 10.0.0.5</b>
+- <b>Web 2 - 10.0.0.6</b>
 
 We have installed the following Beats on these machines:
-- Filebeat
-- Metricbeat
+- <b>Filebeat</b>
+- <b>Metricbeat</b>
 
 These Beats allow us to collect the following information from each machine:<br>
 - <b> Filebeat- collects data about the file system</b> <br>
